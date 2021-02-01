@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="Resourses/css/main.css" type="text/css">
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     </head>
     <!---------------PAGE TEMPLATE HERE. Content starts on line 358---------------->
@@ -354,10 +355,22 @@
                             --------------->
 
 
-            <nav><a href="#">Home</a><a href="#">News</a><a href="#">Shows</a><a href="#">Audio</a><a href="#">Video</a><a href="#">Photo</a><a href="#">Bio</a><a href="#">Contact</a></nav>
+            <nav>
+                <div id="nav-placeholder">
+
+                </div>
+                
+                <script>
+                $(function(){
+                  $("#nav-placeholder").load("nav.html");
+                });
+                </script>
+                
+                <!--<a href="#">Home</a><a href="#">News</a><a href="#">Shows</a><a href="#">Audio</a><a href="#">Video</a><a href="#">Photo</a><a href="#">Bio</a><a href="#">Contact</a>-->
+            </nav>
         </header>
 <!----------------------------------------------- PAGE CONTENT BELOW ------------------->
-<div class="contact">
+<contact><div class="contact">
     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
@@ -365,7 +378,8 @@
 	formId: "a5739431-9fd7-4917-b46e-39aee5795a82"
 });
 </script>
-</div>>
+</div>
+</contact>
         
         
  <!----------------------------------------------CONTEND ENDS. Footes below----------->       
