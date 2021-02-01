@@ -352,7 +352,17 @@
                             --------------->
 
 
-            <nav><a href="index.html">Home</a><a href="#">Shows</a><a href="#">Audio</a><a href="#">Video</a><a href="#">Photo</a><a href="bio.html">Bio</a><a href="contact.html">Contact</a></nav>
+            <nav>
+                <div id="nav-placeholder">
+
+                </div>
+                
+                <script>
+                $(function(){
+                  $("#nav-placeholder").load("nav.html");
+                });
+                </script>
+            </nav>
         </header>
         <div class="slider"><!--<img src="pics/Gif.gif" width="100%">---></div>
 

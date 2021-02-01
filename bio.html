@@ -353,7 +353,17 @@
                             --------------->
 
 
-            <nav><a href="#">Home</a><a href="#">Shows</a><a href="#">Audio</a><a href="#">Video</a><a href="#">Photo</a><a href="#">Bio</a><a href="#">Contact</a></nav>
+            <nav>
+                <div id="nav-placeholder">
+
+                </div>
+                
+                <script>
+                $(function(){
+                  $("#nav-placeholder").load("nav.html");
+                });
+                </script>
+            </nav>
         </header>
 <!----------------------------------------------- PAGE CONTENT BELOW ------------------->
 <article>
