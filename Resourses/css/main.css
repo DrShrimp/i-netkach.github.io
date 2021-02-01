@@ -57,7 +57,7 @@ nav {
     flex-wrap: wrap;
 }
 
-#nav-placeholder {
+#nav-placeholder a {
     box-sizing: border-box;
     padding: 5px 5px;
     margin: 20px 20px;
