@@ -203,7 +203,7 @@ p, main p, .content p {
 }
 
 .contact {
-    background-color: hsla(0, 0%, 12%, 0.9);
+    background-color: hsla(0, 0%, 12%, 0.95);
     height: auto;
     padding: 50px;
 }
