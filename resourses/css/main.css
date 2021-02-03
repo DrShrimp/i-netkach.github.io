@@ -199,7 +199,7 @@ article {
     grid-column: 2 / span 1;
 }
 p, main p, .content p {
-    color: hsla(0, 0%, 85%, 1);
+    color: hsla(0, 0%, 77%, 1);
     line-height: 21px;
     letter-spacing: 1px;
     font-family: serif;
@@ -213,5 +213,5 @@ p, main p, .content p {
 }
 
 .opacity {
-    background-color: hsla(0, 0%, 12%, 0.95);
+    background-color: hsla(0, 0%, 13.3%, 0.97);
 }
