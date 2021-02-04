@@ -1,3 +1,6 @@
+/**************** GLOBAL CSS RULES ******************************/
+
+
 body {
     background-image: url("../images/background.jpg");
     background-size: 100%;
@@ -74,72 +77,6 @@ nav a:hover {
     font-weight:900;
 }
 
-
-.slider {
-    display: block;
-   /* background-color: rgba(0, 0, 0, 0.8); */
-    margin: 0px 0px -10px 0px;
-    height: 500px;
-
-}
-
-main {
-   display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    /* background-color: hsla(0, 0%, 12%, 0.95); */
-    margin: 0px 0px 0px 0px;
-    grid-gap: 30px;
-}
-
-.album {
-    margin: 10px 20px;
-}
-
-.buttons {
-    display: inline-flex;
-    justify-items: stretch;
-    margin-top: 10px;
-
-}
-
-button {
-    box-sizing: border-box;
-    width: auto;
-    background-color: white;
-    color: black;
-    font-weight: 700;
-    font-size: 8pt;
-    text-transform: uppercase;
-    border: none;
-    padding: 5px 5px;
-    transition: all 0.1s linear;
-    margin:1px;
-
-}
-
-button:hover {
-    background-color: crimson;
-    color: white;
-}
-
-div .col1 {
-    grid-column: 1 / 2;
-}
-
-div .col2 {
-    grid-column: 2 / 3;
-}
-
-div .col3 {
-    grid-column: 3 / span 1;
-}
-
-.col3 iframe {
-    padding: 0px 10px 10px 0px;
-}
-
-
-
 footer {
     background-color:hsla(0, 0%, 10%, 1);
     
@@ -155,7 +92,25 @@ footer p {
     padding: 15px 5px 5px 5px;
 }
 
-/**************************** NEWS *****************************/
+
+/***********************************************
+**************** MAIN PAGE CSS *****************
+************************************************/
+
+.slider {
+    display: block;
+   /* background-color: rgba(0, 0, 0, 0.8); */
+    margin: 0px 0px -10px 0px;
+    height: 500px;
+
+}
+
+
+
+
+/************************************
+************** NEWS CSS *************
+*************************************/
 
 article {
     /*background-color: hsla(0, 0%, 12%, 0.95); */
@@ -215,3 +170,29 @@ p, main p, .content p {
 .opacity {
     background-color: hsla(0, 0%, 13.3%, 0.97);
 }
+
+/**********************************************
+********* SINGLE ALBUM CSS ********************
+***********************************************/
+
+.album {
+    display: grid;
+    grid-template: 500px 200px / 1fr 1fr;
+}
+
+.buy {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+}
+
+.cover {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+}
+
+.get-free {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 2;
+
+}
+
