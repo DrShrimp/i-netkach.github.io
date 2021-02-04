@@ -77,6 +77,10 @@ nav a:hover {
     font-weight:900;
 }
 
+.full-width-text {
+    padding: 10px 50px;
+}
+
 p {
     color: hsla(0, 0%, 77%, 1);
     line-height: 21px;
