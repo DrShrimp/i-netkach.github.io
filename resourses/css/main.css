@@ -56,11 +56,12 @@ h1, h2, h3, nav a {
 nav {
     grid-row: 2 / span 1;
     grid-column: 1 / span 3;
-    display: inline-flex;
-    flex-wrap: wrap;
     padding-top: 20px;
 }
 
+#nav-placeholder {
+    display:inline-flex;
+}
 #nav-placeholder a {
     box-sizing: border-box;
     padding: 5px 5px;
