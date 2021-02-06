@@ -258,3 +258,6 @@ button:hover {
     
 }
 
+.buybuttons {
+    display: flex;
+}
