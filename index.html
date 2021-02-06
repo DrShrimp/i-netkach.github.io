@@ -6,18 +6,19 @@
         <meta name="description" content="Violinist and Music Teacher">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="resourses/css/main.css" type="text/css">
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<!-- MailerLite Universal -->
-<script>
-    (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
-    var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
-    f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
-    var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
-    _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
-    
-    var ml_account = ml('accounts', '615543', 'l2w8y8b0w8', 'load');
-    </script>
-    <!-- End MailerLite Universal -->
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+        <!-- MailerLite Universal -->
+        <script>
+            (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+            var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+            f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+            var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+            _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+            
+            var ml_account = ml('accounts', '615543', 'l2w8y8b0w8', 'load');
+        </script>
+        <!-- End MailerLite Universal -->
     </head>
     
     <body>
@@ -25,9 +26,12 @@
               <div class="header-top">
                         <div class="logo"><img src="resourses/images/logo.png" alt="Ilya Netkach Logo" height="70px"></div>
                         <div class="main-title"><h1>The Official Ilya Netkach Website</h1></div>
-                        <div class="header-subscribe">
-                                
-                        </div>
+                        <div id="header-subscribe"></div>
+                        <script>
+                            $(function(){
+                            $("#header-subscribe").load("head-subscr.html");
+                            });
+                        </script>
                 </div>
                 <nav>
                     <div id="nav-placeholder">
