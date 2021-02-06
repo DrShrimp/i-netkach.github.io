@@ -10,19 +10,14 @@ body {
 }
 
 
-header {
-    /*background-color: hsla(0, 0%, 12%, 0.95); */
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 70px 70px;
-    justify-items: center;
-    grid-gap: 5px 5px;
-    margin: 0px 0px 10px 0px;
-
-
-
+.header-top {
+    display: inline-flex;
 }
+    
+
+
+
+
 .logo {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
@@ -132,134 +127,8 @@ footer p {
 *************************************/
 
 
-    
-
-
-.article {
-    width: 90%;
-    display: grid;
-    grid-template-rows: 70px 250px;
-    grid-template-columns: 200px 1fr;
-}
-.date {
-    grid-row: 1 / span 1;
-    grid-column: 1 / span 1;
-    padding: 0px 40px 10px 20px;
-}
-
-.date h1 {
-    text-align: right;
-}
-
-.h1a h2 {
-    grid-row: 1 / span 1;
-    grid-column: 2 / span 1;
-    text-transform: uppercase;
-}
-
-
-
-.share {
-    grid-row: 2 / span 1;
-    grid-column: 1 / span 1;
-
-}
-.content {
-    grid-row: 2 / span 1;
-    grid-column: 2 / span 1;
-}
-
-
-
-.contact {
-    /* background-color: hsla(0, 0%, 12%, 0.95); */
-    height: auto;
-    padding: 50px;
-}
-
 
 /**********************************************
 ********* SINGLE ALBUM CSS ********************
 ***********************************************/
 
-.album {
-    display: grid;
-    grid-template: 500px 200px / 1fr 500px;
-    margin: 20px;
-}
-
-.buy {
-    grid-row: 1 / span 1;
-    grid-column: 1 / span 1;
-
-}
-.buy h2 {
-    text-align: center;
-    
-    
-}
-
-.cover {
-    grid-row: 1 / span 1;
-    grid-column: 2 / span 1;
-}
-
-.cover img {
-    width: 400px;
-    border: 10px solid white;
-    margin: 40px;
-    
-}
-
-.get-free {
-    grid-row: 2 / span 1;
-    grid-column: 1 / span 2;
-
-}
-.buy {
-    padding-left: 30px;
-}
-.buy h3 {
-    /*text-transform: uppercase;*/
-    color:hsla(0, 0%, 100%, 1);
-    /*font-weight: 700;
-    font-size: larger;*/
-    display: inline;
-}
-.buy p {
-    display: inline;
-}
-
-
-.buy a {
-    text-decoration: none;
-    display: inline;
-    margin: 20px;
-}
-.buy img {
-    height: 40px;
-    vertical-align: middle; 
-}
-.buy div {
-    margin: 30px 0px;
-}
-
-button {
-    height: 37px;
-    color: white;
-    background-color: black;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-size: 14pt;
-    transition: ease-in;
-    transition-duration: 100ms;
-    
-}
-button:hover {
-    background-color: orange;
-    
-}
-
-.buybuttons {
-    display: flex;
-}
