@@ -101,8 +101,10 @@ footer p {
 ***********************************************/
 
 @media only screen and (max-width: 380px) and (orientation: portrait) {
-  .logo {width:300px;}
+  .logo {width:300px; justify-items: center;}
+  
   .main-title {width: 300px;}
+  
 }
 
 
