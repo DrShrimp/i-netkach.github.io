@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sub-top {
-  width: 300px;
+  min-width: 300px;
 }
 
 .main-title h1 {
@@ -46,6 +46,31 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-weight: 400;
 }
+nav {
+    padding: 0px 200px 5px 100px;
+  
+}
+nav ul {
+  list-style-type:none;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+nav li {
+  margin: 0px 10px;
+
+}
+nav a {
+  color: white;
+  font-family: Oswald;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all ease-in-out 100ms;
+}
+nav a:hover {
+  color:hsla(0, 80%, 55%, 1);
+}
+
 
 
 
@@ -103,8 +128,23 @@ footer p {
 ***********************************************/
 
 @media only screen and (max-width: 380px){
+  
   .header-top {justify-content: center;}
-  .main-title, .sub-top {min-width:350px;}
+  .main-title, .sub-top {width: 300px; padding:0px; margin: 0px;}
+  .logo {padding:0px; margin: 0px;}
+ 
+  
+  nav, nav ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  nav li {
+    justify-self: center;
+    margin:5px;
+  }
+  nav a {
+    font-size: small;
+  }
 
   
   
