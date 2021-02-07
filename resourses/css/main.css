@@ -33,6 +33,11 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 100px;
     padding: 0px 20px;
 }
+
+.logo img {
+    align-self: center;
+    justify-self: center;
+}
 .main-title {
     width: 60%;
     
