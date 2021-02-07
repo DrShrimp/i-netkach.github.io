@@ -133,7 +133,7 @@ footer p {
   .main-title, .sub-top {width: 300px; padding:0px; margin: 0px;}
   .logo {padding:0px; margin: 0px;}
  
-  
+  .main-title h1 {font-size: 1.5rem;}
   nav, nav ul {
     padding: 0px;
     margin: 0px;
