@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 nav {
-    padding: 0px 200px 5px 100px;
+    padding: 0px 300px 5px 100px;
   
 }
 nav ul {
@@ -57,7 +57,7 @@ nav ul {
   flex-wrap: wrap;
 }
 nav li {
-  margin: 0px 10px;
+  margin: 0px 20px;
 
 }
 nav a {
