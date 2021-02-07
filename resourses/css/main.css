@@ -100,7 +100,7 @@ footer p {
 ************** MEDIA QUERIES ******************
 ***********************************************/
 
-@media only screen and (max-width: 380px) and (orientation: portrait) {
+@media only screen {
   .logo {width:300px; justify-items: center;}
   
   .main-title {width: 300px;}
