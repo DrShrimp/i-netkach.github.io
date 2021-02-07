@@ -106,7 +106,7 @@ footer p {
 ***********************************************/
 
 @media only screen and (max-width: 380px){
-  .logo, .main-title, .header-subscribe {width: 370px; justify-items: center;}
+  .logo, .main-title, .header-subscribe {width: 370px; justify-self: center;}
   
   
 }
