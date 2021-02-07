@@ -27,21 +27,18 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     padding-top: 5px;
     flex-wrap: wrap;
-    justify-items: center;
+    
 }
-.logo {
-    
-    
+.logo {  
     padding: 0px 20px;
 }
 
-.logo img {
-    align-self: center;
-    justify-self: center;
-}
 .main-title {
-    width: 60%;
-    
+    width: 65%;    
+}
+
+.sub-top {
+  width: 300px;
 }
 
 .main-title h1 {
@@ -49,7 +46,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-weight: 400;
 }
-
 
 
 
@@ -108,7 +104,7 @@ footer p {
 
 @media only screen and (max-width: 380px){
   .header-top {justify-content: center;}
-  .main-title, .head-subscribe {min-width:350px;}
+  .main-title, .sub-top {min-width:350px;}
 
   
   
