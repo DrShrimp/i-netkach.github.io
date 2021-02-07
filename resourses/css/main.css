@@ -101,10 +101,8 @@ footer p {
 ***********************************************/
 
 @media only screen and (max-width: 380){
-  .logo {justify-self: center;}
+  .header-top {align-content: center;}
   
-  .main-title {justify-self: center;}
-  .header-subscribe {justify-self: center;}
 }
 
 
