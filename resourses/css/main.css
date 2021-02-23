@@ -91,7 +91,7 @@ footer {
 
 
 footer p {
-  font-family: "Quattrocento";
+  font-family: "Quattrocento", serif;
   color:hsl(0, 0%, 90%);
   text-align: center;
   font-size: 0.8rem;
