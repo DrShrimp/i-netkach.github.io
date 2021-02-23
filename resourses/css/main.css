@@ -1,3 +1,6 @@
+html {
+  min-height: 100%;
+}
 body {
   background-image: url("../images/background.jpg");
   background-size: cover;
@@ -9,7 +12,7 @@ body {
 header {
   display: grid;
   grid-template-columns: repeat(9, 1fr) minmax(300px, 350px);
-  grid-template-rows: 1fr minmax(4rem, auto);
+  grid-template-rows: minmax(75px, auto) minmax(3rem, auto);
   margin: 0%;
 }
 .logo {
@@ -59,6 +62,37 @@ nav a:hover {
 }
 .opacity {
   background-color: hsla(0, 0%, 15%, 0.97);
+}
+footer {
+  
+  background-color:hsl(0, 0%, 15%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.facons {
+  padding-top:0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  letter-spacing: 2rem;
+  color: hsl(0, 0%, 90%);
+}
+.facons a {
+  color: hsl(0, 0%, 90%);
+}
+.facons a:hover {
+  color:hsl(0, 0%, 60%);
+}
+
+
+footer p {
+  font-family: "Quattrocento";
+  color:hsl(0, 0%, 90%);
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 
