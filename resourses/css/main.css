@@ -1,5 +1,5 @@
 html {
-  
+  position: relative;
   min-height: 100%;
 }
 body {
@@ -72,10 +72,11 @@ nav a:hover {
 footer {
   
   background-color:hsl(0, 0%, 15%);
-  position:fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
+  overflow: hidden;
   
 }
 .facons {
