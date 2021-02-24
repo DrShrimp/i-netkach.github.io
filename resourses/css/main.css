@@ -71,6 +71,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+  overflow: hidden;
 }
 .facons {
   padding-top:0.5rem;
