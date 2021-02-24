@@ -1,3 +1,8 @@
+/************************************************************
+************* GENERAL and MAIN CSS ***************************
+*************************************************************/
+
+
 html {
   position: relative;
   min-height: 100%;
@@ -8,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-color: grey;
   margin: 0px;
+  height:100%;
   
 }
 header {
@@ -31,6 +37,12 @@ h1 {
   justify-self: center;
   font-size: 2rem;
   
+}
+h2, h3, h4, h5, h6 {
+  color:hsla(0, 0%, 90%, 1);
+}
+p {
+  color:hsla(0, 0%, 85%, 1);
 }
 .subscribe {
   grid-column: 10/11;
@@ -65,6 +77,11 @@ nav a:hover {
 .slider {
   width: 100%;
   margin: 0px;
+}
+main {
+  display: block;
+  margin: 2rem 0px;
+  min-height: 500px;
 }
 .opacity {
   background-color: hsla(0, 0%, 15%, 0.97);
@@ -195,6 +212,52 @@ footer p {
   
 }
 
+
+/****************************************************************
+********************* NEWS LIST PAGE ****************************
+*****************************************************************/
+
+.news {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+  border: solid 0.3px hsla(0, 0%, 70%, 0.5);
+  margin: auto;
+  
+}
+main h2 {
+  text-align: center;
+  padding-top: 1rem;
+}
+.date {
+  width: 20%;
+  
+}
+.date p {
+  font-size: 1.2rem;
+  font-weight:200;
+  
+  text-align: center;
+  margin-right: 20px;
+}
+.extract {
+  max-width: 70%;
+}
+.readmore {
+  box-sizing: border-box;
+  border: solid 1px white;
+  color:hsl(0, 0%, 90%);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 5px;
+  text-decoration: none; 
+}
+.readmore:hover {
+  color:hsl(0, 0%, 75%);
+  border-color: hsl(0, 0%, 75%);
+}
 
 /****************************************************************
 ***************** FONTS *****************************************
