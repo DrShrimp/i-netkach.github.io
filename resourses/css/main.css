@@ -73,6 +73,7 @@ nav a:hover {
 .slider {
   width: 100%;
   margin: 0px;
+  padding: 0px;
 }
 main {
   position: relative;
@@ -85,7 +86,7 @@ main {
   background-color: hsla(0, 0%, 15%, 0.97);
 }
 footer {
-  min-height: 200px;
+  
   margin: 0px;
   background-color:hsl(0, 0%, 15%);
   position: relative;
