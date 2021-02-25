@@ -1,7 +1,7 @@
 /************************************************************
 ************* GENERAL and MAIN CSS ***************************
 *************************************************************/
-body, html { height: 100% }
+body, html { height: 100%; position:relative; }
 body {
   background-image: url("../images/bkg4high.jpg");
   background-size: cover;
