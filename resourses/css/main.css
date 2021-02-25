@@ -11,6 +11,7 @@ body {
   background-image: url("../images/bkg4high.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-color: grey;
   margin: 0px;
   height:100%;
@@ -79,9 +80,12 @@ nav a:hover {
   margin: 0px;
 }
 main {
+  position:relative;
   display: block;
   margin: 2rem 0px;
-  min-height: 500px;
+  min-height: 400px;
+  
+  overflow: scroll;
 }
 .opacity {
   background-color: hsla(0, 0%, 15%, 0.97);
