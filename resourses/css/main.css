@@ -86,6 +86,7 @@ main {
   background-color: hsla(0, 0%, 15%, 0.97);
 }
 footer {
+  height: auto;
   padding-top: 1.7rem;
   margin: 0px;
   background-color:hsl(0, 0%, 15%);
