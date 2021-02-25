@@ -102,7 +102,6 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-content: center;
   flex-wrap:wrap;
   font-size: 1.7rem;
   letter-spacing: 2rem;
