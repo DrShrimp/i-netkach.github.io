@@ -85,7 +85,7 @@ main {
   background-color: hsla(0, 0%, 15%, 0.97);
 }
 footer {
-  min-height: 100px;
+  min-height: 200px;
   margin: 0px;
   background-color:hsl(0, 0%, 15%);
   position: relative;
