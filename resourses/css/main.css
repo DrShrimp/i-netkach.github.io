@@ -86,7 +86,7 @@ main {
   background-color: hsla(0, 0%, 15%, 0.97);
 }
 footer {
-  
+  padding-top: 1.7rem;
   margin: 0px;
   background-color:hsl(0, 0%, 15%);
   position: relative;
@@ -97,7 +97,7 @@ footer {
   
 }
 .facons {
-  margin-top: 1.7rem;
+  
   width: 100%;
   display: flex;
   justify-content: center;
