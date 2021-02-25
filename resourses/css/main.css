@@ -73,19 +73,19 @@ nav a {
   transition: all linear 100ms;
 }
 nav a:hover {
-  color: hsl(0, 75%, 50%)
+  color: hsl(0, 75%, 50%);
 }
 .slider {
   width: 100%;
   margin: 0px;
 }
 main {
-  position:relative;
+  position: fixed;
   display: block;
   margin: 2rem 0px;
-  min-height: 400px;
+  height: 100%;
   
-  overflow: scroll;
+  
 }
 .opacity {
   background-color: hsla(0, 0%, 15%, 0.97);
