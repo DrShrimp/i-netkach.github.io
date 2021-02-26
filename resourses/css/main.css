@@ -341,7 +341,7 @@ margin: auto;
 
 }
 .videos iframe, .videos div {
-  margin: auto;
+  margin: 2rem auto;
   justify-self: center; 
 }
 
