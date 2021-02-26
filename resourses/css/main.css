@@ -338,11 +338,35 @@ flex-wrap: wrap;
 width: 95%;
 padding: 0px auto 2rem auto;
 margin: auto;
-
 }
-.videos iframe, .videos div {
+
+.thumb-play {
+  width: 300px;
+  min-width: 200px;
   margin: 2rem;
-  justify-self: center; 
+  position: relative;
+  text-align: center;
+}
+
+.thumb-play i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: hsl(0, 0%, 90%);
+  font-size: 2.5rem;
+}
+.video-box {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 95%;
+  height: 95%;
+  overflow: auto;
+  background-color: black;
 }
 
 /****************************************************************
