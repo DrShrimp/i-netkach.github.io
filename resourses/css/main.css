@@ -335,7 +335,7 @@ main h2 {
 .videos {
 display: flex;
 flex-wrap: wrap;
-width: 90%;
+width: 95%;
 padding: 0px auto 2rem auto;
 margin: auto;
 
