@@ -232,7 +232,7 @@ main h2 {
   text-align: center;
   padding-top: 1rem;
 }
-.date {
+.date, .place, .show-date {
   width: 20%;
   
 }
@@ -290,6 +290,42 @@ main h2 {
 }
 .album-item p {
   text-align: center;
+}
+/****************************************************************
+***************** EVENTS LIST *****************************************
+****************************************************************/
+
+.show-list {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+  border-bottom: dotted 0.3px hsla(0, 0%, 70%, 0.5);
+  margin: auto;
+}
+
+.show-description {
+  max-width: 50%;
+}
+.book-show {
+  box-sizing: border-box;
+  background-color:hsl(0, 75%, 55%);
+  color:hsl(0, 0%, 90%);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 5px;
+  text-decoration: none; 
+  align-self: center;
+  justify-self: center;
+  margin: auto;
+}
+.book-show:hover {
+ background-color:hsl(30, 76%, 50%)
+}
+.show-date p, .place p, .show-description p {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /****************************************************************
