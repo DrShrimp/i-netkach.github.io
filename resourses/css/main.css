@@ -335,13 +335,13 @@ main h2 {
 .videos {
 display: flex;
 flex-wrap: wrap;
-width: 95%;
+width: 90%;
 padding: 0px auto 2rem auto;
 margin: auto;
 
 }
 .videos iframe, .videos div {
-  margin: 2rem auto;
+  margin: 2rem;
   justify-self: center; 
 }
 
