@@ -97,6 +97,9 @@ footer {
   overflow: hidden;
   
 }
+footer .home {
+  position: absolute;
+}
 .facons {
   
   width: 100%;
