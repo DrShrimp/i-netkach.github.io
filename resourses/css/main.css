@@ -417,6 +417,20 @@ margin: auto;
       position: relative;
       text-align: center;
     }
+    .thumb-play p {
+      text-align: center;
+      position: absolute;
+      display: block;
+      bottom: 0;
+      background-color: hsla(0, 0%, 15%, 0.7);
+      width: 95%;
+      padding: 0.5rem 0 1rem 0;
+      margin-bottom: 0;
+      height: auto;
+      font-family: "Oswald";
+      font-size: 0.9rem;
+      
+    }
     .video-box {
       display: none;
       position: fixed;
