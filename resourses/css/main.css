@@ -97,7 +97,7 @@ footer {
   overflow: hidden;
   
 }
-footer .home {
+.home {
   position: absolute;
   bottom: 0;
   left: 0;
