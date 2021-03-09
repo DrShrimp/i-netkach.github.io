@@ -304,11 +304,29 @@ main h2 {
   border-bottom: dotted 0.3px hsla(0, 0%, 70%, 0.5);
   margin: auto;
 }
+.show-date {
+  width: 20%;
+  min-width: 5rem;
+  margin: auto;
+}
+.place {
+  width: 20%;
+  min-width: 10rem;
+  margin: auto;
+}
 
 .show-description {
-  max-width: 50%;
+  width: 40%;
+  min-width: 15rem;
+  margin: auto;
 }
 .book-show {
+  width: 10%;
+  min-width: 5rem;
+  display: inline-flex;
+  margin: auto;
+}
+.book-show a{
   box-sizing: border-box;
   background-color:hsl(0, 75%, 55%);
   color:hsl(0, 0%, 90%);
@@ -316,11 +334,10 @@ main h2 {
   text-transform: uppercase;
   padding: 5px;
   text-decoration: none; 
-  align-self: center;
-  justify-self: center;
   margin: auto;
+  
 }
-.book-show:hover {
+.book-show a:hover {
  background-color:hsl(30, 76%, 50%)
 }
 .show-date p, .place p, .show-description p {
