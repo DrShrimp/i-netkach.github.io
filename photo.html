@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Official Ilya Netkach Website</title>
+        <link rel="shortcut icon" type="image/jpg" href="resourses/images/favicon.jpg"/>
+        <meta name="description" content="Violinist and Music Teacher">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="resourses/css/main.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="resourses/js/videobox.js"></script>
+        <!-- GOOGLE ANALITICS -->
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64778317-1"></script>
+                    <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'UA-64778317-1');
+                    </script>
+
+        <!-- MailerLite Universal -->
+        <script defer>
+            (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+            var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+            f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+            var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+            _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+            
+            var ml_account = ml('accounts', '615543', 'l2w8y8b0w8', 'load');
+        </script>
+        <!-- End MailerLite Universal -->
+        <script defer src="https://kit.fontawesome.com/6350c6b9dc.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        
+            <header id="head-place" class="opacity">
+                    
+            </header>
+            <script>
+                $(function(){
+                  $("#head-place").load("t-header.html");
+                });
+                </script>
+            <main class="opacity">
+                <h2>Video</h2>
+                <div class="videos">
+                    <!-----Video Thumbnail Starts-->
+                    <div class="thumb-play" onclick="openRainDust()">
+                        <img src="resourses/images/youtube-thumbs/raindust-mqdefault.jpg">
+                        <i class="fas fa-play-circle"></i>
+                        <p>Rain & Dust (Single, 2019)</p>
+                    </div>
+                    <div class="video-box" id="raindust">
+                        <div class="close cursor"><span onclick="closeRainDust()">&times;</span></div>
+                        <div id="raindust-fr"></div>
+                    </div>
+                    <!----Video Thumbnail Ends-->
+                    <!-----Video Thumbnail Starts-->
+                    <div class="thumb-play" onclick="openMedley()">
+                        <img src="resourses/images/youtube-thumbs/medley-mqdefault.jpg">
+                        <i class="fas fa-play-circle"></i>
+                        <p>Soundtracks Medley (Live at the Battle of the Bands, HardRockCafe Bahrain, 2016)</p>
+                    </div>
+                    <div class="video-box" id="medley">
+                        <div class="close cursor"><span onclick="closeMedley()">&times;</span></div>
+                        <div id="medley-fr"></div>
+                    </div>
+                    <!----Video Thumbnail Ends-->
+                    <!-----Video Thumbnail Starts-->
+                    <div class="thumb-play" onclick="openDG()">
+                        <img src="resourses/images/youtube-thumbs/diamondsglass-mqdefault.jpg">
+                        <i class="fas fa-play-circle"></i>
+                        <p>Diamonds & Glass (Live at the Battle of the Bands, HardRockCafe Bahrain, 2016)</p>
+                    </div>
+                    <div class="video-box" id="dg">
+                        <div class="close cursor"><span onclick="closeDG()">&times;</span></div>
+                        <div id="dg-fr"></div>
+                    </div>
+                    <!----Video Thumbnail Ends-->
+                     <!-----Video Thumbnail Starts-->
+                     <div class="thumb-play" onclick="openAP()">
+                        <img src="resourses/images/youtube-thumbs/apologisenpromise-mqdefault.jpg">
+                        <i class="fas fa-play-circle"></i>
+                        <p>Apologise & Promise (Live at the Battle of the Bands, HardRockCafe Bahrain, 2016)</p>
+                    </div>
+                    <div class="video-box" id="ap">
+                        <div class="close cursor"><span onclick="closeAP()">&times;</span></div>
+                        <div id="ap-fr"></div>
+                    </div>
+                    <!----Video Thumbnail Ends-->
+                    <!-----Video Thumbnail Starts-->
+                    <div class="thumb-play" onclick="openRazz()">
+                        <img src="resourses/images/youtube-thumbs/razzberty-mqdefault.jpg">
+                        <i class="fas fa-play-circle"></i>
+                        <p>Razzberty (Live at the Battle of the Bands, HardRockCafe Bahrain, 2016)</p>
+                    </div>
+                    <div class="video-box" id="razz">
+                        <div class="close cursor"><span onclick="closeRazz()">&times;</span></div>
+                        <div id="razz-fr"></div>
+                    </div>
+                    <!----Video Thumbnail Ends-->
+                    <!-----Video Thumbnail Starts-->
+                    <div class="thumb-play" onclick="openSlf()">
+                        <img src="resourses/images/youtube-thumbs/surlefil-mqdefault.jpg">
+                        <i class="fas fa-play-circle"></i>
+                        <p>Sur Le Fil (Yann Tiersen, cover)</p>
+                    </div>
+                    <div class="video-box" id="slf">
+                        <div class="close cursor"><span onclick="closeSlf()">&times;</span></div>
+                        <div id="slf-fr"></div>
+                    </div>
+                    <!----Video Thumbnail Ends-->
+                    <!-----Video Thumbnail Starts-->
+                    <div class="thumb-play" onclick="openVD()">
+                        <img src="resourses/images/youtube-thumbs/doshechka-mqdefault.jpg">
+                        <i class="fas fa-play-circle"></i>
+                        <p>Verbovaya Doshechka (Single, 2015)</p>
+                    </div>
+                    <div class="video-box" id="vd">
+                        <div class="close cursor"><span onclick="closeVD()">&times;</span></div>
+                        <div id="vd-fr"></div>
+                    </div>
+                    <!----Video Thumbnail Ends-->
+                    <!-----Video Thumbnail Starts-->
+                    <div class="thumb-play" onclick="openLugsana()">
+                        <img src="resourses/images/youtube-thumbs/lugsana-mqdefault.jpg">
+                        <i class="fas fa-play-circle"></i>
+                        <p>Lugsana (Live at the Fete De La Musique, Kharkiv, 2012)</p>
+                    </div>
+                    <div class="video-box" id="lugsana">
+                        <div class="close cursor"><span onclick="closeLugsana()">&times;</span></div>
+                        <div id="lugsana-fr"></div>
+                    </div>
+                    <!----Video Thumbnail Ends-->
+                    
+                    
+
+                <!---JUST TRYING-->
+
+                </div>
+                <div><div class="g-ytsubscribe" data-channel="IlyaNetkach" data-layout="full" data-theme="dark" data-count="default"></div></div>
+                
+            </main>
+            
+            <footer  id="ftPlc">
+               
+            </footer>
+            <script>
+                $(function(){
+                  $("#ftPlc").load("t-footer.html");
+                });
+                </script>
+    </body>
+</html>
