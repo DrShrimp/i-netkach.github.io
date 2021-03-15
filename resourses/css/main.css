@@ -3,7 +3,7 @@
 *************************************************************/
 body, html { height: 100%; position:relative; }
 body {
-  background-image: url("../images/bkg4high.jpg");
+  background-image: url("../images/bkg4cuttedhigh.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11,6 +11,27 @@ body {
   margin: 0px;
  
   
+}
+@media screen and (max-width: 1024px){
+  body {
+    background-image: url("../images/bkg1mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: grey;
+    margin: 0px; 
+  }
+}
+@media screen and (max-width: 414px){
+  body {
+    background-image: url("../images/bkg1minimobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: grey;
+    margin: 0px; 
+  }
+
 }
 header {
   display: grid;
@@ -77,6 +98,9 @@ nav a:hover {
   width: 100%;
   margin-bottom: -5px;
   padding: 0px;
+}
+.main-hold {
+  height: 100%;
 }
 main {
   position: relative;
