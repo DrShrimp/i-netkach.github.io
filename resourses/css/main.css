@@ -311,6 +311,89 @@ main h2 {
 .album-item p {
   text-align: center;
 }
+
+      /***************** Album page ************************************/ 
+
+.album-page {
+  
+  width: 90%;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  
+  
+}
+.listenbuy {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  padding: 2rem;
+  
+  
+}
+.listenbuy i {
+  margin-right: 0.5rem;
+}
+.listenbuy a {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-family: "Quattrocento", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  border:hsl(0, 0%, 90%) solid 1px;
+  border-radius: 10px;
+  background-color:hsl(0, 0%, 85%);
+  color:hsl(0, 0%, 21%);
+  transition: all ease-in-out 100ms;
+}
+.listenbuy a:hover {
+  background-color:hsl(0, 0%, 70%);
+}
+.artw {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  padding: 2rem;
+
+}
+.artw h4, .release-credits h4 {
+  text-transform: uppercase;
+}
+.artw h4, .artw p {
+  line-height: 0.3rem;
+  text-align: center;
+  color:hsla(0, 0%, 85%, 1);
+  
+}
+ .artw img { 
+  display: block;
+  margin: auto;
+  width: 230px;
+  
+}
+.release-story {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  padding: 0 2rem;
+  
+}
+.release-story p {
+  box-sizing: border-box;
+  border-top:hsl(0, 0%, 90%) solid 1px;
+  padding: 0.5rem;
+}
+.album-share {
+  grid-row: 2/3;
+  grid-column: 2/3; 
+}
+.album-share div {
+  display: block;
+  margin: 0.5rem auto;
+  width: 200px;
+}
+
+        
 /****************************************************************
 ***************** EVENTS LIST *****************************************
 ****************************************************************/
@@ -514,7 +597,7 @@ margin: auto;
   width: 400px;
   min-width: 200px;
   float: left;
-  margin: 1rem 1.5rem 0 0;
+  margin: 1rem 1.5rem 0.5rem 0;
   border:hsla(0, 0%, 75%, 0.85) 2px solid;
 }
 
@@ -532,6 +615,8 @@ margin: auto;
     margin: 0 auto 2rem auto;
   }
 }
+
+
 
 /****************************************************************
 ***************** FONTS *****************************************
