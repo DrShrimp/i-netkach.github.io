@@ -90,6 +90,7 @@ nav a:hover {
 }
 .main-hold {
   height: calc(100%-8rem);
+  position: relative;
 }
 main {
   position: relative;
