@@ -383,6 +383,13 @@ main h2 {
   border-top:hsl(0, 0%, 90%) solid 1px;
   padding: 0.5rem;
 }
+.release-story a {
+  color: white;
+  font-weight:600;
+}
+.release-story a:hover {
+  color: hsl(0, 0%, 85%);
+}
 .album-share {
   grid-row: 2/3;
   grid-column: 2/3; 
