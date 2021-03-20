@@ -242,9 +242,9 @@ footer p {
   width: 95%;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 2rem;
+  padding: 1rem 2rem 2rem 0;
   box-sizing: border-box;
-  border: solid 0.3px hsla(0, 0%, 70%, 0.5);
+  border-top: solid 0.3px hsla(0, 0%, 70%, 0.5);
   margin: auto;
   
 }
