@@ -89,9 +89,9 @@ nav a:hover {
   padding: 0px;
 }
 .main-hold {
-    height: -moz-calc(100% - 8rem);
-    height: -webkit-calc(100% - 8rem);
-    height: calc(100% - 8rem); 
+    height: -moz-calc(100% - 15rem);
+    height: -webkit-calc(100% - 15rem);
+    height: calc(100% - 15rem); 
 }
 main {
   position: relative;
