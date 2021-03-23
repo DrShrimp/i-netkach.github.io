@@ -51,6 +51,7 @@ h2, h3, h4, h5, h6 {
 article {
   padding: 1rem 15%;
 }
+
 p {
   color:hsla(0, 0%, 85%, 1);
   line-height: 1.4rem;
@@ -202,6 +203,9 @@ footer p {
   .facons {
     font-size: 1rem;
   }
+  article {
+    padding: 1rem 5%;
+  }
 }
 @media only screen and (max-width: 280px) {
   header {
@@ -232,6 +236,9 @@ footer p {
   }
   .facons {
     font-size: 1rem;
+  }
+  article {
+    padding: 1rem 0;
   }
   
 }
