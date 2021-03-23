@@ -204,7 +204,7 @@ footer p {
     font-size: 1rem;
   }
   article {
-    padding: 1rem 5%;
+    padding: 1rem 10%;
   }
 }
 @media only screen and (max-width: 280px) {
@@ -238,7 +238,7 @@ footer p {
     font-size: 1rem;
   }
   article {
-    padding: 1rem 0;
+    padding: 1rem 10%;
   }
   
 }
