@@ -683,6 +683,37 @@ margin: auto;
 /****************************************************************
 ***************** Photo LIST *****************************************
 ****************************************************************/
+.gal-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  padding-bottom: 2rem;
+  margin: auto;
+
+}
+.gal-list p {
+  margin-top: 0px;
+}
+.gal-thumb {
+  width: 250px;
+  max-width: 500px;
+  
+  min-width: 200px;
+  padding: 10px;
+}
+.gal-item a {
+  color:hsla(0, 0%, 90%, 1);
+  font-weight: 700;
+}
+.gal-item a:hover {
+  color:hsla(0, 0%, 75%, 1)
+}
+.gal-item p {
+  text-align: center;
+
+
+
+}
 
 .gal {
   display: flex;
@@ -699,10 +730,10 @@ margin: auto;
   width: 70%;
   
   background-color: hsla(0, 0%, 5%, 0.7);
-  width: 70%;
+  
   position: fixed;
   z-index: 1;
-  overflow: auto;
+  overflow: hidden;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -711,7 +742,7 @@ margin: auto;
 
 #singlepic img {
   width: 100%;
-  margin-bottom:0;
+  margin-bottom: -5px;
   
 }
 

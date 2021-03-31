@@ -12,7 +12,7 @@
             <meta property="og:type"          content="website" />
             <meta property="og:title"         content="Old Photos" />
             <meta property="og:description"   content="Photo - The Official Ilya Netkach Website" />
-            <meta property="og:image"         content="https://drshrimp.github.io/i-netkach.github.io/resourses/images/photos/.jpg" />           
+            <meta property="og:image"         content="https://drshrimp.github.io/i-netkach.github.io/resourses/images/photos/old/1.jpg" />           
         <!-->
 
         <!-- GOOGLE ANALITICS -->
@@ -63,8 +63,15 @@
                 document.getElementById("singlepic").innerHTML = `<img src="../resourses/images/photos/old/1.jpg">`;
             break;
             case 2: 
-
+            document.getElementById("singlepic").innerHTML = `<img src="../resourses/images/photos/old/2.jpg">`;
             break;
+            case 3: 
+            document.getElementById("singlepic").innerHTML = `<img src="../resourses/images/photos/old/3.jpg">`;
+            break;
+            case 4: 
+            document.getElementById("singlepic").innerHTML = `<img src="../resourses/images/photos/old/4.jpg">`;
+            break;
+            
         }
         
     }
@@ -77,10 +84,10 @@
     <h2>Old Pics</h2>
     <div class="gal">
         <img src="../resourses/images/photos/old/thumb/1.jpg" alt="Ilya Netkach - Old Photos" onclick="openPic(1)">
-        <img src="../resourses/images/photos/old/thumb/2.jpg" alt="Ilya Netkach - Old Photos">
-        <img src="../resourses/images/photos/old/thumb/3.jpg" alt="Ilya Netkach - Old Photos">
-        <img src="../resourses/images/photos/old/thumb/4.jpg" alt="Ilya Netkach - Old Photos">
-        <img src="../resourses/images/photos/old/thumb/5.jpg" alt="Ilya Netkach - Old Photos">
+        <img src="../resourses/images/photos/old/thumb/2.jpg" alt="Ilya Netkach - Old Photos" onclick="openPic(2)">
+        <img src="../resourses/images/photos/old/thumb/3.jpg" alt="Ilya Netkach - Old Photos" onclick="openPic(3)">
+        <img src="../resourses/images/photos/old/thumb/4.jpg" alt="Ilya Netkach - Old Photos" onclick="openPic(4)">
+        
     </div>
     <div id="picLb">
         <div class="close cursor"><span onclick="closePic()">&times;</span></div>
