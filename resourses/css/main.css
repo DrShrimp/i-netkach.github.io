@@ -725,6 +725,8 @@ margin: auto;
 .gal img {
   margin: 2rem 1rem;
 }
+
+
 #picLb {
   display: none;
   width: 70%;
@@ -746,6 +748,26 @@ margin: auto;
   
 }
 
+@media only screen and (max-width: 375px){
+  .gal-list {
+    width:90%;
+  }
+  .gal-item {
+    width:100%;
+  }
+  .gal-thumb {
+    width: 95%;
+    
+    
+    margin: 1rem auto;
+  }
+  #picLb {
+    width: 100%;
+  }
+  .gal img {
+    margin: 2rem auto;
+  }
+}
 
 
 /****************************************************************
