@@ -19,6 +19,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: grey;
+    background-position-y: 8rem;
     margin: 0px; 
   }
 }
