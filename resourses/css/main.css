@@ -87,6 +87,7 @@ nav a {
   text-transform: uppercase; 
   transition: all linear 100ms;
 }
+
 nav a:hover {
   color: hsl(0, 75%, 50%);
 }
@@ -216,7 +217,8 @@ footer p {
     grid-column: 1/4;
   }
   nav a {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
+    
   }
   .main-hold {
     height: 100%;
